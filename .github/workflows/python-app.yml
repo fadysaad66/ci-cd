@@ -20,6 +20,7 @@ jobs:
       checks: write
       
   build:
+    needs: [integration]
 
     runs-on: ubuntu-latest
     permissions:
